@@ -1,5 +1,5 @@
 image:
-  file: 6.0/6.0.0a3/Dockerfile.python39
+  file: .gitpod.Docker
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: echo 'init script' # runs during prebuild

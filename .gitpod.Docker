@@ -1,6 +1,8 @@
 FROM python:3.9-slim-bullseye as base
 FROM base as builder
 
+USER gitpod
+
 ENV PIP_PARAMS=""
 ENV PIP_VERSION=22.0.4
 ENV PLONE_VERSION=6.0.0a4
